@@ -1,6 +1,6 @@
-CPU FUNCTION                                
+CPU FUNCTION
   0  -> _sigaction                                            0
-  0    -> tisigaction                                     300
+  0    -> tisigaction                                       300
   0      -> delete_reserved_signals                        3000
   0        -> sigdiffset                                   5300
   0        <- sigdiffset                                   7100
@@ -34,4 +34,4 @@ CPU FUNCTION
   0        <- lmutex_unlock                               39600
   0      <- sigaction_internal                            41500
   0    <- _sigaction                                      43400
-  0  <- _sigaction       
+  0  <- _sigaction
