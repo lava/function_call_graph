@@ -1,0 +1,46 @@
+# ========
+# captured on    : Mon Nov 26 18:02:11 2018
+# header version : 1
+# data offset    : 232
+# data size      : 106210
+# feat offset    : 106442
+# missing features: TRACING_DATA BUILD_ID HOSTNAME OSRELEASE VERSION ARCH NRCPUS CPUDESC CPUID TOTAL_MEM CMDLINE EVENT_DESC CPU_TOPOLOGY NUMA_TOPOLOGY BRANCH_STACK PMU_MAPPINGS GROUP_DESC AUXTRACE STAT CACHE SAMPLE_TIME MEM_TOPOLOGY
+# ========
+#
+master@127.0.1.1:5050 14784 182029.119454:       5000 cycles:uh:
+	    7fa494d343b5 _ZN6google11InitVLOG3__EPPiS0_PKci+0x35 (/home/bevers/src/mesos/worktrees/state-benchmarking/build-alexr/src/.libs/libmesos-1.8.0.so)
+	    7fa494cd157f _ZN7process11ProcessBase7consumeEONS_9HttpEventE+0x6af (/home/bevers/src/mesos/worktrees/state-benchmarking/build-alexr/src/.libs/libmesos-1.8.0.so)
+	    7fa494ccd332 _ZN7process14ProcessManager6resumeEPNS_11ProcessBaseE+0x492 (/home/bevers/src/mesos/worktrees/state-benchmarking/build-alexr/src/.libs/libmesos-1.8.0.so)
+	    7fa494cd3606 _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJZN7process14ProcessManager12init_threadsEvEUlvE_EEEEE6_M_runEv+0x46 (/home/bevers/src/mesos/worktrees/state-benchmarking/build-alexr/src/.libs/libmesos-1.8.0.so)
+	    7fa491e43733 [unknown] (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+
+master@127.0.1.1:5050 14784 182029.119460:       5000 cycles:uh:
+	    7fa4938a5480 _ZNK7process5OwnedINS_8SequenceEE3getEv@plt+0x0 (/home/bevers/src/mesos/worktrees/state-benchmarking/build-alexr/src/.libs/libmesos-1.8.0.so)
+	    7fa494ccd332 _ZN7process14ProcessManager6resumeEPNS_11ProcessBaseE+0x492 (/home/bevers/src/mesos/worktrees/state-benchmarking/build-alexr/src/.libs/libmesos-1.8.0.so)
+	    7fa494cd3606 _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJZN7process14ProcessManager12init_threadsEvEUlvE_EEEEE6_M_runEv+0x46 (/home/bevers/src/mesos/worktrees/state-benchmarking/build-alexr/src/.libs/libmesos-1.8.0.so)
+	    7fa491e43733 [unknown] (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+
+master@127.0.1.1:5050 14784 182029.119467:       5000 cycles:uh:
+	    7fa4944e1d3d _ZNK7process5OwnedINS_8SequenceEE3getEv+0x1d (/home/bevers/src/mesos/worktrees/state-benchmarking/build-alexr/src/.libs/libmesos-1.8.0.so)
+	    7fa494cd1002 _ZN7process11ProcessBase7consumeEONS_9HttpEventE+0x132 (/home/bevers/src/mesos/worktrees/state-benchmarking/build-alexr/src/.libs/libmesos-1.8.0.so)
+	    7fa494ccd332 _ZN7process14ProcessManager6resumeEPNS_11ProcessBaseE+0x492 (/home/bevers/src/mesos/worktrees/state-benchmarking/build-alexr/src/.libs/libmesos-1.8.0.so)
+	    7fa494cd3606 _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJZN7process14ProcessManager12init_threadsEvEUlvE_EEEEE6_M_runEv+0x46 (/home/bevers/src/mesos/worktrees/state-benchmarking/build-alexr/src/.libs/libmesos-1.8.0.so)
+	    7fa491e43733 [unknown] (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+
+master@127.0.1.1:5050 14784 182029.119470:       5000 cycles:uh:
+	    7fa491e0e660 _Znwm@plt+0x0 (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+	    7fa494cd1436 _ZN7process11ProcessBase7consumeEONS_9HttpEventE+0x566 (/home/bevers/src/mesos/worktrees/state-benchmarking/build-alexr/src/.libs/libmesos-1.8.0.so)
+	    7fa494ccd332 _ZN7process14ProcessManager6resumeEPNS_11ProcessBaseE+0x492 (/home/bevers/src/mesos/worktrees/state-benchmarking/build-alexr/src/.libs/libmesos-1.8.0.so)
+	    7fa494cd3606 _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJZN7process14ProcessManager12init_threadsEvEUlvE_EEEEE6_M_runEv+0x46 (/home/bevers/src/mesos/worktrees/state-benchmarking/build-alexr/src/.libs/libmesos-1.8.0.so)
+	    7fa491e43733 [unknown] (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+
+master@127.0.1.1:5050 14784 182029.119474:       5000 cycles:uh:
+	    7fa491903b22 __memmove_avx_unaligned_erms+0x52 (/lib/x86_64-linux-gnu/libc-2.27.so)
+	    7fa494cd1436 _ZN7process11ProcessBase7consumeEONS_9HttpEventE+0x566 (/home/bevers/src/mesos/worktrees/state-benchmarking/build-alexr/src/.libs/libmesos-1.8.0.so)
+	    7fa494ccd332 _ZN7process14ProcessManager6resumeEPNS_11ProcessBaseE+0x492 (/home/bevers/src/mesos/worktrees/state-benchmarking/build-alexr/src/.libs/libmesos-1.8.0.so)
+	    7fa494cd3606 _ZNSt6thread11_State_implINS_8_InvokerISt5tupleIJZN7process14ProcessManager12init_threadsEvEUlvE_EEEEE6_M_runEv+0x46 (/home/bevers/src/mesos/worktrees/state-benchmarking/build-alexr/src/.libs/libmesos-1.8.0.so)
+	    7fa491e43733 [unknown] (/usr/lib/x86_64-linux-gnu/libstdc++.so.6.0.25)
+
+master@127.0.1.1:5050 14784 182029.119479:       5000 cycles:uh:
+	    7fa49180c20a malloc+0x19a (/lib/x86_64-linux-gnu/libc-2.27.so)
+
