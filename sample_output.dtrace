@@ -1,0 +1,37 @@
+CPU FUNCTION                                
+  0  -> _sigaction                                            0
+  0    -> tisigaction                                     300
+  0      -> delete_reserved_signals                        3000
+  0        -> sigdiffset                                   5300
+  0        <- sigdiffset                                   7100
+  0      <- delete_reserved_signals                        8700
+  0      -> sigandset                                     11000
+  0      <- sigandset                                     12800
+  0      -> sigaction_internal                            14700
+  0        -> lmutex_lock                                 17000
+  0        <- lmutex_lock                                 19600
+  0        -> __sigaction                                 22000
+  0          => sigaction                                 23700
+  0            -> sigaction32                             23900
+  0              -> copyin                                24100
+  0              <- copyin                                24300
+  0              -> default_copyin                        24500
+  0              <- default_copyin                        25200
+  0              -> setsigact                             26000
+  0                -> sigdiffset                          26300
+  0                <- sigdiffset                          26600
+  0              <- setsigact                             27100
+  0              -> copyout                               27400
+  0              <- copyout                               27600
+  0              -> default_copyout                       27800
+  0              <- default_copyout                       28300
+  0            <- sigaction32                             28500
+  0          <= sigaction                                 28800
+  0        <- __sigaction                                 30900
+  0        -> lmutex_unlock                               33000
+  0          -> mutex_unlock_queue                        35300
+  0          <- mutex_unlock_queue                        37700
+  0        <- lmutex_unlock                               39600
+  0      <- sigaction_internal                            41500
+  0    <- _sigaction                                      43400
+  0  <- _sigaction       
