@@ -29,7 +29,7 @@
 # Check http://blogs.sun.com/realneel for updates
 
 require 'pp'
-require 's_v_g'
+require './s_v_g.rb'
 
 # This is a basic node. Nothing special here, moveon
 class Node 
